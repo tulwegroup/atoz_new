@@ -3,8 +3,6 @@ import { motion } from 'motion/react';
 import { Menu, X, Landmark, Phone, Mail } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
-import logo from '../assets/atoz-logo.png';
-
 const navLinks = [
   { name: 'Home', path: '/' },
   { name: 'About A to Z', path: '/about' },
@@ -46,7 +44,7 @@ export default function Navbar() {
 
         <div className="flex justify-between items-center border-t border-slate-200/10 pt-4 md:pt-0">
           <Link to="/" className="flex items-center gap-3 group">
-            <img src={logo} alt="A to Z Logo" className="h-10 w-auto object-contain" />
+            <img src="/atoz-finance-logo.png" alt="A to Z Logo" className="h-10 w-auto object-contain" />
             <div className="flex flex-col">
               <span className="font-serif text-xl font-bold tracking-tight text-primary">A to Z</span>
               <span className="text-[10px] uppercase tracking-[0.2em] -mt-1 font-semibold text-muted">Finance Solutions</span>

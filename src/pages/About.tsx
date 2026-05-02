@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { Target, Eye, Heart, Compass } from 'lucide-react';
-import asiaBashir from '../assets/asia-bashir.png';
 
 export default function About() {
   return (
@@ -44,7 +43,7 @@ export default function About() {
         <section className="grid lg:grid-cols-2 gap-16 items-center mb-32">
           <div className="relative">
             <img 
-              src={asiaBashir} 
+              src="/asia-bashir-headshot.png" 
               alt="Asia Bashir" 
               className="rounded-[40px] shadow-2xl bg-slate-50 w-full"
             />
