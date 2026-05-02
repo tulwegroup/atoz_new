@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { Landmark, Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
-import logo from '../assets/atoz-logo.png';
 
 export default function Footer() {
   return (
@@ -9,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-3">
-              <img src={logo} alt="A to Z Logo" className="h-12 w-auto object-contain brightness-0 invert" />
+              <img src="/atoz-logo.avif" alt="A to Z Logo" className="h-12 w-auto object-contain brightness-0 invert" />
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-bold tracking-tight">A to Z</span>
                 <span className="text-[10px] uppercase tracking-[0.2em] -mt-1 font-semibold text-white/50">Finance Solutions</span>
