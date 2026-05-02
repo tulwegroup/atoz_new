@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { ShieldCheck, TrendingUp, HeartHandshake, Briefcase, FileText, CheckCircle2, Star, Quote } from 'lucide-react';
 import ServiceCard from '../components/ServiceCard';
 import { Link } from 'react-router-dom';
+import asiaBashir from '../assets/asia-bashir.png';
 
 const quickServices = [
   {
@@ -57,7 +58,7 @@ export default function Home() {
               
               <div className="mt-12">
                 <img 
-                  src="/asia-bashir.avif" 
+                  src={asiaBashir} 
                   alt="Asia Bashir" 
                   className="w-24 h-24 object-cover rounded-3xl shadow-xl border-4 border-white inline-block hover:scale-110 transition-transform duration-500"
                 />
