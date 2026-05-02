@@ -46,9 +46,6 @@ export default function About() {
               src="/asia-bashir.png" 
               alt="Asia Bashir" 
               className="rounded-[40px] shadow-2xl bg-slate-50 w-full"
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800";
-              }}
             />
           </div>
           <div>

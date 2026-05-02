@@ -55,21 +55,12 @@ export default function Home() {
                 </Link>
               </div>
               
-              <div className="mt-12 inline-flex items-center gap-6">
-                <div className="flex-shrink-0">
-                  <img 
-                    src="/asia-bashir.png" 
-                    alt="Asia Bashir" 
-                    className="w-20 h-20 object-cover rounded-2xl shadow-lg border-2 border-white"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200";
-                    }}
-                  />
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-2xl font-bold text-primary font-serif italic">Asia Bashir</span>
-                  <span className="text-[10px] uppercase tracking-widest font-bold text-secondary">Founder & CEO</span>
-                </div>
+              <div className="mt-12">
+                <img 
+                  src="/asia-bashir.png" 
+                  alt="Asia Bashir" 
+                  className="w-24 h-24 object-cover rounded-3xl shadow-xl border-4 border-white inline-block hover:scale-110 transition-transform duration-500"
+                />
               </div>
             </motion.div>
 
